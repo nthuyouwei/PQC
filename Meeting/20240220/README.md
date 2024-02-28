@@ -1,6 +1,7 @@
 # 事項: Call graph、Run profile tools
 ## gprof:  https://hackmd.io/@vic9112/BJT2k__26
 ## valgrind:
+### 流程
 確認是否有安裝gcc、clang、valgrind、kcachegrind
 ```
 clang --version
@@ -20,4 +21,7 @@ sudo apt install kcachegrind
 valgrind --tool=callgrind ./test_falcon
 kcachegrind callgrind.out.#####  & //(##### is a number)
 ```
+### Result
+we only run test_nist_KAT in test.falcon.c
 
+![image](https://github.com/nthuyouwei/PQC/assets/145022311/fda7a916-b5c0-4adc-bed1-dde09bcf5d42)
