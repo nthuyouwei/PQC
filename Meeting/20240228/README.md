@@ -1,4 +1,4 @@
-事項:paper 再細讀。  
+事項:以下paper再細讀:
 
 A High Level Synthesis Approach to the Software Hardware Codesign of NTT Based Post-Quantum Cryptography Algorithms
 
