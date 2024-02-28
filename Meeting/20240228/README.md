@@ -12,4 +12,4 @@ High-Level Synthesis design approach for Number-Theoretic Transform Implementati
 
 Secure Hardware Accelerators for Post-Quantum Cryptography
 
-High-speed Instruction-set Coprocessor for Lattice-based Key Encapsulation Mechanism: Saber in Hardware
+[High-speed Instruction-set Coprocessor for Lattice-based Key Encapsulation Mechanism: Saber in Hardware](https://eprint.iacr.org/2020/434.pdf)
