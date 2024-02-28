@@ -1,4 +1,4 @@
-事項:paper 在細節  
+事項:paper 再細讀。  
 A High Level Synthesis Approach to the Software Hardware Codesign of NTT Based Post-Quantum Cryptography Algorithms
 
 A Flexible and Scalable NTT Hardware: Applications from Homomorphically Encrypted Deep Learning to Post-Quantum Cryptography
