@@ -5,7 +5,7 @@ A Flexible and Scalable NTT Hardware: Applications from Homomorphically Encrypte
 
 Hardware Architectures for Post-Quantum Digital Signature – Deepraj Soni, Kanad Basu, Mohammed Nabeel, Najwa Aaraj, Marc – 1st ed., 2021
 
-Falcon Takes Off - A Hardware Implementation of the Falcon Signature Scheme
+[Falcon Takes Off - A Hardware Implementation of the Falcon Signature Scheme](https://eprint.iacr.org/2023/1885.pdf)
 
 High-Level Synthesis design approach for Number-Theoretic Transform Implementations
 
