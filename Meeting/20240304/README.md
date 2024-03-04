@@ -21,6 +21,7 @@ vrfy(NTT) : 昇達、育碩
 
 ```
 cd PQC/Meeting/20240304/CallGraph
+kcachegrind test_xxxxx.out.xxxxx  //對應的檔案，(記得先載kcachegrind，詳如[此]())
 ```
 
 ## Vitis_hls
