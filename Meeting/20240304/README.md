@@ -29,4 +29,4 @@ kcachegrind test_xxxxx.out.xxxxx  //對應的檔案
 
 tb中有kengen、 sign、 vrfy可以跑csim.
 
-跑csynthesis時記得改對應的top funtion.
+跑csynthesis時記得改對應的top funtion.(如同soc lab1)
