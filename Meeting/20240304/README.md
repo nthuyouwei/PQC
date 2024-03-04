@@ -18,9 +18,9 @@ vrfy(NTT) : 昇達、育碩
 ## source code
 [官網(reference code)](https://github.com/nthuyouwei/PQC/tree/main/falcon-round3/Extra/c)
 
-[Hardware Architectures for Post-Quantum Digital Signature ]()
+[Hardware Architectures for Post-Quantum Digital Signature ](https://github.com/deepraj88/FALCON_Final)
 
-[Falcon Takes Off]()
+[Falcon Takes Off](https://gitlab.ost.ch/imes/public/papers/FalconHLS/-/tree/master?ref_type=heads)
 
 # 分析輔助工具
 ## Callgraph
@@ -32,7 +32,7 @@ kcachegrind test_xxxxx.out.xxxxx  //對應的檔案
 ```
 
 ## Vitis_hls
-我把 Falcon Takes Off  中的hlscode放進去vitis_hls，可以直接叫vitis_hls然後利用GUI介面來open project (選PQC/Meeting/20240304/vitis_hls/hls_ip這個資料夾open就可)
+我把 Falcon Takes Off  中的code_hls放進去vitis_hls，可以直接叫vitis_hls然後利用GUI介面來open project (選PQC/Meeting/20240304/vitis_hls/hls_ip這個資料夾open就可)
 
 tb中有kengen、 sign、 vrfy可以跑csim.
 
