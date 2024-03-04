@@ -34,6 +34,8 @@ kcachegrind test_xxxxx.out.xxxxx  //對應的檔案
 ## Vitis_hls
 我把 Falcon Takes Off  中的code_hls放進去vitis_hls，可以直接叫vitis_hls然後利用GUI介面來open project (選PQC/Meeting/20240304/vitis_hls/hls_ip這個資料夾open就可)
 
+![image](https://github.com/nthuyouwei/PQC/assets/145022311/481864a7-032f-49db-b537-7c44e1b21533)
+
 tb中有kengen、 sign、 vrfy可以跑csim.
 
 跑csynthesis時記得改對應的top funtion.(top function 名稱要自行看論文研究一下，設置top function 方法如同soc lab1)
