@@ -17,11 +17,11 @@ vrfy(NTT) : 昇達、育碩
 
 # 分析輔助工具
 ## Callgraph
-這裡利用 reference code 中test_falcon.c中三個test function來跑call graph 
+這裡利用 reference code 中test_falcon.c中三個test function來跑call graph(記得先載kcachegrind，詳如[此](https://github.com/nthuyouwei/PQC/tree/main/Meeting/20240220))
 
 ```
 cd PQC/Meeting/20240304/CallGraph
-kcachegrind test_xxxxx.out.xxxxx  //對應的檔案，(記得先載kcachegrind，詳如[此](https://github.com/nthuyouwei/PQC/tree/main/Meeting/20240220))
+kcachegrind test_xxxxx.out.xxxxx  //對應的檔案
 ```
 
 ## Vitis_hls
