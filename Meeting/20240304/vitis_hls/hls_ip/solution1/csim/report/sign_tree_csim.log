@@ -1,0 +1,24 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling(apcc) ../../../../../FalconHLS/code_hls/tb.c in debug mode
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2022.1/bin/unwrapped/lnx64.o/apcc'
+INFO: [HLS 200-10] For user 'ubuntu' on host 'ubuntu2004.linuxvmimages.local' (Linux_x86_64 version 5.15.0-97-generic) on Mon Mar 04 00:32:30 EST 2024
+INFO: [HLS 200-10] On os Ubuntu 20.04.4 LTS
+INFO: [HLS 200-10] In directory '/home/ubuntu/falconlab/hls_ip/solution1/csim/build'
+INFO: [APCC 202-3] Tmp directory is /tmp/apcc_db_ubuntu/227341709530351085433
+INFO: [APCC 202-1] APCC is done.
+INFO: [HLS 200-112] Total CPU user time: 4.62 seconds. Total CPU system time: 1.55 seconds. Total elapsed time: 7.25 seconds; peak allocated memory: 19.328 MB.
+   Generating csim.exe
+Test keygen: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, f correct 
+ 
+g correct 
+ 
+G correct 
+ 
+F correct 
+ 
+h correct 
+ 
+done.
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

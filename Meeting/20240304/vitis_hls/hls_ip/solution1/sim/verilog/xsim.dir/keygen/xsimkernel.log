@@ -1,0 +1,4 @@
+Running: xsim.dir/keygen/xsimk -simmode gui -wdb keygen.wdb -simrunnum 0 -socket 49403
+Design successfully loaded
+Design Loading Memory Usage: 159244 KB (Peak: 159244 KB)
+Design Loading CPU Usage: 280 ms

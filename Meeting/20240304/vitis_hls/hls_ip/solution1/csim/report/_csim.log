@@ -1,0 +1,180 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling(apcc) ../../../../../FalconHLS/code_hls/tb.c in debug mode
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2022.1/bin/unwrapped/lnx64.o/apcc'
+INFO: [HLS 200-10] For user 'ubuntu' on host 'ubuntu2004.linuxvmimages.local' (Linux_x86_64 version 5.15.0-97-generic) on Sun Mar 03 09:20:33 EST 2024
+INFO: [HLS 200-10] On os Ubuntu 20.04.4 LTS
+INFO: [HLS 200-10] In directory '/home/ubuntu/falconlab/hls_ip/solution1/csim/build'
+INFO: [APCC 202-3] Tmp directory is /tmp/apcc_db_ubuntu/112681709475633428914
+INFO: [APCC 202-1] APCC is done.
+INFO: [HLS 200-112] Total CPU user time: 3.87 seconds. Total CPU system time: 0.57 seconds. Total elapsed time: 4.55 seconds; peak allocated memory: 19.328 MB.
+   Compiling(apcc) ../../../../../FalconHLS/code_hls/vrfy.c in debug mode
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2022.1/bin/unwrapped/lnx64.o/apcc'
+INFO: [HLS 200-10] For user 'ubuntu' on host 'ubuntu2004.linuxvmimages.local' (Linux_x86_64 version 5.15.0-97-generic) on Sun Mar 03 09:20:38 EST 2024
+INFO: [HLS 200-10] On os Ubuntu 20.04.4 LTS
+INFO: [HLS 200-10] In directory '/home/ubuntu/falconlab/hls_ip/solution1/csim/build'
+INFO: [APCC 202-3] Tmp directory is /tmp/apcc_db_ubuntu/113261709475638909234
+INFO: [APCC 202-1] APCC is done.
+INFO: [HLS 200-112] Total CPU user time: 4.22 seconds. Total CPU system time: 0.36 seconds. Total elapsed time: 4.61 seconds; peak allocated memory: 19.309 MB.
+   Compiling(apcc) ../../../../../FalconHLS/code_hls/sign.c in debug mode
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2022.1/bin/unwrapped/lnx64.o/apcc'
+INFO: [HLS 200-10] For user 'ubuntu' on host 'ubuntu2004.linuxvmimages.local' (Linux_x86_64 version 5.15.0-97-generic) on Sun Mar 03 09:20:44 EST 2024
+INFO: [HLS 200-10] On os Ubuntu 20.04.4 LTS
+INFO: [HLS 200-10] In directory '/home/ubuntu/falconlab/hls_ip/solution1/csim/build'
+../../../../../FalconHLS/code_hls/sign.c:317:11: warning: assigning to 'double *' from 'const fpr *' (aka 'const double *') discards qualifiers [-Wincompatible-pointer-types]
+        base_adr = t0;
+                 ^ ~~
+../../../../../FalconHLS/code_hls/sign.c:356:10: warning: initializing 'fpr *' (aka 'double *') with an expression of type 'const fpr *' (aka 'const double *') discards qualifiers [-Wincompatible-pointer-types]
+                        fpr * tree_tmp = tree + tree_offset_ff[i];
+                              ^          ~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../../FalconHLS/code_hls/sign.c:512:12: warning: initializing 'double *' with an expression of type 'const fpr *' (aka 'const double *') discards qualifiers [-Wincompatible-pointer-types]
+                        double* tree_tmp = tree + tree_offset_ff[back1_local[back1_cnt]];
+                                ^          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../../FalconHLS/code_hls/sign.c:1905:38: warning: sizeof on array function parameter will return size of 'uint8_t *' (aka 'unsigned char *') instead of 'uint8_t [50]' [-Wsizeof-array-argument]
+                i_shake256_inject(&sc, msg, sizeof msg);
+                                                   ^
+../../../../../FalconHLS/code_hls/sign.c:1889:87: note: declared here
+void sign_tree(int16_t sig[1024], fpr expanded_key[15360], uint16_t hm[1024], uint8_t msg[50], uint8_t seed[48])
+                                                                                      ^
+4 warnings generated.
+../../../../../FalconHLS/code_hls/sign.c:317:11: warning: assigning to 'double *' from 'const fpr *' (aka 'const double *') discards qualifiers [-Wincompatible-pointer-types]
+        base_adr = t0;
+                 ^ ~~
+../../../../../FalconHLS/code_hls/sign.c:356:10: warning: initializing 'fpr *' (aka 'double *') with an expression of type 'const fpr *' (aka 'const double *') discards qualifiers [-Wincompatible-pointer-types]
+                        fpr * tree_tmp = tree + tree_offset_ff[i];
+                              ^          ~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../../FalconHLS/code_hls/sign.c:512:12: warning: initializing 'double *' with an expression of type 'const fpr *' (aka 'const double *') discards qualifiers [-Wincompatible-pointer-types]
+                        double* tree_tmp = tree + tree_offset_ff[back1_local[back1_cnt]];
+                                ^          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../../FalconHLS/code_hls/sign.c:1905:38: warning: sizeof on array function parameter will return size of 'uint8_t *' (aka 'unsigned char *') instead of 'uint8_t [50]' [-Wsizeof-array-argument]
+                i_shake256_inject(&sc, msg, sizeof msg);
+                                                   ^
+../../../../../FalconHLS/code_hls/sign.c:1889:87: note: declared here
+void sign_tree(int16_t sig[1024], fpr expanded_key[15360], uint16_t hm[1024], uint8_t msg[50], uint8_t seed[48])
+                                                                                      ^
+4 warnings generated.
+INFO: [APCC 202-3] Tmp directory is /tmp/apcc_db_ubuntu/113841709475644493963
+INFO: [APCC 202-1] APCC is done.
+INFO: [HLS 200-112] Total CPU user time: 5.13 seconds. Total CPU system time: 0.14 seconds. Total elapsed time: 5.32 seconds; peak allocated memory: 19.309 MB.
+   Compiling(apcc) ../../../../../FalconHLS/code_hls/shake.c in debug mode
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2022.1/bin/unwrapped/lnx64.o/apcc'
+INFO: [HLS 200-10] For user 'ubuntu' on host 'ubuntu2004.linuxvmimages.local' (Linux_x86_64 version 5.15.0-97-generic) on Sun Mar 03 09:20:50 EST 2024
+INFO: [HLS 200-10] On os Ubuntu 20.04.4 LTS
+INFO: [HLS 200-10] In directory '/home/ubuntu/falconlab/hls_ip/solution1/csim/build'
+INFO: [APCC 202-3] Tmp directory is /tmp/apcc_db_ubuntu/114421709475650800310
+INFO: [APCC 202-1] APCC is done.
+INFO: [HLS 200-112] Total CPU user time: 4.19 seconds. Total CPU system time: 0.38 seconds. Total elapsed time: 4.63 seconds; peak allocated memory: 19.309 MB.
+   Compiling(apcc) ../../../../../FalconHLS/code_hls/rng.c in debug mode
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2022.1/bin/unwrapped/lnx64.o/apcc'
+INFO: [HLS 200-10] For user 'ubuntu' on host 'ubuntu2004.linuxvmimages.local' (Linux_x86_64 version 5.15.0-97-generic) on Sun Mar 03 09:20:56 EST 2024
+INFO: [HLS 200-10] On os Ubuntu 20.04.4 LTS
+INFO: [HLS 200-10] In directory '/home/ubuntu/falconlab/hls_ip/solution1/csim/build'
+INFO: [APCC 202-3] Tmp directory is /tmp/apcc_db_ubuntu/115001709475656345231
+INFO: [APCC 202-1] APCC is done.
+INFO: [HLS 200-112] Total CPU user time: 3.71 seconds. Total CPU system time: 0.74 seconds. Total elapsed time: 4.57 seconds; peak allocated memory: 19.309 MB.
+   Compiling(apcc) ../../../../../FalconHLS/code_hls/keygen.c in debug mode
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2022.1/bin/unwrapped/lnx64.o/apcc'
+INFO: [HLS 200-10] For user 'ubuntu' on host 'ubuntu2004.linuxvmimages.local' (Linux_x86_64 version 5.15.0-97-generic) on Sun Mar 03 09:21:01 EST 2024
+INFO: [HLS 200-10] On os Ubuntu 20.04.4 LTS
+INFO: [HLS 200-10] In directory '/home/ubuntu/falconlab/hls_ip/solution1/csim/build'
+INFO: [APCC 202-3] Tmp directory is /tmp/apcc_db_ubuntu/115581709475661828395
+INFO: [APCC 202-1] APCC is done.
+INFO: [HLS 200-112] Total CPU user time: 8.09 seconds. Total CPU system time: 1.47 seconds. Total elapsed time: 9.67 seconds; peak allocated memory: 19.309 MB.
+   Compiling(apcc) ../../../../../FalconHLS/code_hls/fpr.c in debug mode
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2022.1/bin/unwrapped/lnx64.o/apcc'
+INFO: [HLS 200-10] For user 'ubuntu' on host 'ubuntu2004.linuxvmimages.local' (Linux_x86_64 version 5.15.0-97-generic) on Sun Mar 03 09:21:12 EST 2024
+INFO: [HLS 200-10] On os Ubuntu 20.04.4 LTS
+INFO: [HLS 200-10] In directory '/home/ubuntu/falconlab/hls_ip/solution1/csim/build'
+INFO: [APCC 202-3] Tmp directory is /tmp/apcc_db_ubuntu/116161709475672516936
+INFO: [APCC 202-1] APCC is done.
+INFO: [HLS 200-112] Total CPU user time: 3.73 seconds. Total CPU system time: 0.7 seconds. Total elapsed time: 4.5 seconds; peak allocated memory: 19.309 MB.
+   Compiling(apcc) ../../../../../FalconHLS/code_hls/fft.c in debug mode
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2022.1/bin/unwrapped/lnx64.o/apcc'
+INFO: [HLS 200-10] For user 'ubuntu' on host 'ubuntu2004.linuxvmimages.local' (Linux_x86_64 version 5.15.0-97-generic) on Sun Mar 03 09:21:17 EST 2024
+INFO: [HLS 200-10] On os Ubuntu 20.04.4 LTS
+INFO: [HLS 200-10] In directory '/home/ubuntu/falconlab/hls_ip/solution1/csim/build'
+../../../../../FalconHLS/code_hls/fft.c:1042:8: warning: expression result unused [-Wunused-value]
+                for (u, i = 1; u > 1; u--, ++i) {
+                     ^
+../../../../../FalconHLS/code_hls/fft.c:1076:8: warning: expression result unused [-Wunused-value]
+                for (u, i = 1; u > 1; u--, ++i) {
+                     ^
+../../../../../FalconHLS/code_hls/fft.c:1110:8: warning: expression result unused [-Wunused-value]
+                for (u, i = 1; u > 1; u--, ++i) {
+                     ^
+../../../../../FalconHLS/code_hls/fft.c:1144:8: warning: expression result unused [-Wunused-value]
+                for (u, i = 1; u > 1; u--, ++i) {
+                     ^
+../../../../../FalconHLS/code_hls/fft.c:1178:8: warning: expression result unused [-Wunused-value]
+                for (u, i = 1; u > 1; u--, ++i) {
+                     ^
+../../../../../FalconHLS/code_hls/fft.c:1212:8: warning: expression result unused [-Wunused-value]
+                for (u, i = 1; u > 1; u--, ++i) {
+                     ^
+../../../../../FalconHLS/code_hls/fft.c:1246:8: warning: expression result unused [-Wunused-value]
+                for (u, i = 1; u > 1; u--, ++i) {
+                     ^
+../../../../../FalconHLS/code_hls/fft.c:1280:8: warning: expression result unused [-Wunused-value]
+                for (u, i = 1; u > 1; u--, ++i) {
+                     ^
+../../../../../FalconHLS/code_hls/fft.c:1314:8: warning: expression result unused [-Wunused-value]
+                for (u, i = 1; u > 1; u--, ++i) {
+                     ^
+../../../../../FalconHLS/code_hls/fft.c:1348:8: warning: expression result unused [-Wunused-value]
+                for (u, i = 1; u > 1; u--, ++i) {
+                     ^
+10 warnings generated.
+../../../../../FalconHLS/code_hls/fft.c:1042:8: warning: expression result unused [-Wunused-value]
+                for (u, i = 1; u > 1; u--, ++i) {
+                     ^
+../../../../../FalconHLS/code_hls/fft.c:1076:8: warning: expression result unused [-Wunused-value]
+                for (u, i = 1; u > 1; u--, ++i) {
+                     ^
+../../../../../FalconHLS/code_hls/fft.c:1110:8: warning: expression result unused [-Wunused-value]
+                for (u, i = 1; u > 1; u--, ++i) {
+                     ^
+../../../../../FalconHLS/code_hls/fft.c:1144:8: warning: expression result unused [-Wunused-value]
+                for (u, i = 1; u > 1; u--, ++i) {
+                     ^
+../../../../../FalconHLS/code_hls/fft.c:1178:8: warning: expression result unused [-Wunused-value]
+                for (u, i = 1; u > 1; u--, ++i) {
+                     ^
+../../../../../FalconHLS/code_hls/fft.c:1212:8: warning: expression result unused [-Wunused-value]
+                for (u, i = 1; u > 1; u--, ++i) {
+                     ^
+../../../../../FalconHLS/code_hls/fft.c:1246:8: warning: expression result unused [-Wunused-value]
+                for (u, i = 1; u > 1; u--, ++i) {
+                     ^
+../../../../../FalconHLS/code_hls/fft.c:1280:8: warning: expression result unused [-Wunused-value]
+                for (u, i = 1; u > 1; u--, ++i) {
+                     ^
+../../../../../FalconHLS/code_hls/fft.c:1314:8: warning: expression result unused [-Wunused-value]
+                for (u, i = 1; u > 1; u--, ++i) {
+                     ^
+../../../../../FalconHLS/code_hls/fft.c:1348:8: warning: expression result unused [-Wunused-value]
+                for (u, i = 1; u > 1; u--, ++i) {
+                     ^
+10 warnings generated.
+INFO: [APCC 202-3] Tmp directory is /tmp/apcc_db_ubuntu/116741709475677954712
+INFO: [APCC 202-1] APCC is done.
+INFO: [HLS 200-112] Total CPU user time: 5.54 seconds. Total CPU system time: 0.52 seconds. Total elapsed time: 6.22 seconds; peak allocated memory: 19.309 MB.
+   Compiling(apcc) ../../../../../FalconHLS/code_hls/common.c in debug mode
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2022.1/bin/unwrapped/lnx64.o/apcc'
+INFO: [HLS 200-10] For user 'ubuntu' on host 'ubuntu2004.linuxvmimages.local' (Linux_x86_64 version 5.15.0-97-generic) on Sun Mar 03 09:21:25 EST 2024
+INFO: [HLS 200-10] On os Ubuntu 20.04.4 LTS
+INFO: [HLS 200-10] In directory '/home/ubuntu/falconlab/hls_ip/solution1/csim/build'
+INFO: [APCC 202-3] Tmp directory is /tmp/apcc_db_ubuntu/117321709475685050555
+INFO: [APCC 202-1] APCC is done.
+INFO: [HLS 200-112] Total CPU user time: 3.52 seconds. Total CPU system time: 0.75 seconds. Total elapsed time: 4.45 seconds; peak allocated memory: 19.309 MB.
+   Compiling(apcc) ../../../../../FalconHLS/code_hls/codec.c in debug mode
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vitis_HLS/2022.1/bin/unwrapped/lnx64.o/apcc'
+INFO: [HLS 200-10] For user 'ubuntu' on host 'ubuntu2004.linuxvmimages.local' (Linux_x86_64 version 5.15.0-97-generic) on Sun Mar 03 09:21:30 EST 2024
+INFO: [HLS 200-10] On os Ubuntu 20.04.4 LTS
+INFO: [HLS 200-10] In directory '/home/ubuntu/falconlab/hls_ip/solution1/csim/build'
+INFO: [APCC 202-3] Tmp directory is /tmp/apcc_db_ubuntu/117901709475690399229
+INFO: [APCC 202-1] APCC is done.
+INFO: [HLS 200-112] Total CPU user time: 3.71 seconds. Total CPU system time: 0.72 seconds. Total elapsed time: 4.53 seconds; peak allocated memory: 19.309 MB.
+   Generating csim.exe
+Test verify: done.
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************
